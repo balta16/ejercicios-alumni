@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratorio 1</title>
+    <link rel="stylesheet" href="css/contacto.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <img
+          class="logoAzul"
+          src="images/M5-logo-azul.svg"
+          alt="web hosting logo"
+        />
+      </div>
+      <nav class="menu">
+        <a href="index.html">HOME</a>
+        <a href="contacto.html">CONTACTO</a>
+      </nav>
+    </header>
+    <form>
+      <p class="titulo">¿Queres que nos contactemos con vos?</p>
+      <p>Dejanos tu consulta:</p>
+      <label>Nombre completo <span>*</span></label>
+      <input type="text" required />
+      <label>Email <span>*</span></label>
+      <input type="email" required placeholder="ejemplo@gmail.com" />
+      <label>Comentario <span>*</span></label>
+      <textarea required></textarea>
+      <div>
+        <input type="reset" id="reset" />
+        <button>Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>

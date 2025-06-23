@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    text-align: center;
+}
+
+.fecha{
+    font-family: Montserrat, bold, sans-serif;
+    font-size: 66px;
+    color: #0a2ff1;
+    background-color: #fff;
+}
+
+.black{
+    font-family: Montserrat, bold, sans-serif;
+    font-size: 197px;
+    color: #fff;
+    background-color: #000;
+}
+.friday{
+    font-family: Montserrat, bold, sans-serif;
+    font-size: 217px;
+    color: #000;
+    background-color: #fff;
+}
+.discount{
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+    color: #0a2ff1;
+    background-color: #fff;
+}
+.noTeLoPierdas{
+    font-family: Montserrat, bold, sans-serif;
+    font-size: 58px;
+    color: #0a2ff1;
+    background-color: #fff;
+}
+.porcentaje{
+    font-family: Montserrat, bold, sans-serif;
+    font-size: 60px;
+    color: #fff;
+    background-color: #000;
+}

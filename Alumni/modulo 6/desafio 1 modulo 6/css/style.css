@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "coolvetica";
+  src: url(../transfonter.org-20250621-174833/Coolvetica-Regular.woff),
+    url(../transfonter.org-20250621-174833/Coolvetica-Regular.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto light";
+  src: url(../transfonter.org-20250621-174953/Roboto-Light.woff),
+    url(../transfonter.org-20250621-174953/Roboto-Light.woff2);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto regular";
+  src: url(../transfonter.org-20250621-174953/Roboto-Regular.woff),
+    url(../transfonter.org-20250621-174953/Roboto-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: "coolvetica";
+  font-size: 120px;
+  color: #0a2ff1;
+  margin-bottom: 2rem;
+}
+p {
+  font-family: "roboto light";
+  font-size: 40px;
+  color: #04146c;
+  margin-bottom: 2rem;
+  text-align: center;
+  max-width: 1000px;
+}
+#boton1 {
+  border: 3px solid #0a2ff1;
+  font-family: "roboto regular";
+  font-size: 40px;
+  background-color: #0a2ff1;
+  color: #fff;
+  padding: 0.5rem 2.5rem;
+  margin-bottom: 2rem;
+}
+#boton2 {
+  border: 3px solid #04146c;
+  font-family: "roboto regular";
+  font-size: 40px;
+  background-color: #fff;
+  color: #04146c;
+  padding: 0.5rem 2.5rem;
+}

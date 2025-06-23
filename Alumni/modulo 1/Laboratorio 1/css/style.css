@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    font-family: MuseoModerno, bold, sans-serif;
+    color: #0a2ff1;
+    font-size: 117px;
+
+}
+
+.subTitulo{
+    font-family: Asap, sans-serif;
+     color: #0a2ff1;
+    font-size: 52px;
+
+}
+
+body{
+    background-color: #edf7ff;
+    text-align: left; 
+}
+
+p{
+   font-family: Asap, sans-serif;
+    color: #04146c;
+    font-size: 33px; 
+}
+
+.conoceMendoza{
+     font-family: MuseoModerno, bold, sans-serif;
+    color: #0a2ff1;
+    font-size: 48px; 
+}
+
+ul{
+    font-family: Asap, bold, sans-serif;
+    color: #04146c;
+    font-size: 33px; 
+}
+
+.modo{
+     font-family: MuseoModerno, bold, sans-serif;
+    color: #8a9af1;
+    font-size: 198px; 
+
+}

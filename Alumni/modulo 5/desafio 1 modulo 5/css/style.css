@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  width: 100%;
+  height: 20px;
+  background-color: #fff;
+  margin-left: 50px;
+  border-top: 30px solid #0a2ff1;
+}
+.menu,
+.logoAzul {
+  margin-top: 30px;
+}
+.menu a {
+  margin-left: 80px;
+  text-decoration: none;
+  color: #04146c;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 96px;
+  color: #0a2ff1;
+  margin-bottom: 1px;
+}
+h2 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 45px;
+  color: #0a2ff1;
+}
+h3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  color: #04146c;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+.parrafo {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  color: #04146c;
+  margin-bottom: 20px;
+  margin-top: 1px;
+}
+
+p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 34px;
+  color: #04146c;
+}
+
+.imagen1 {
+  width: 100%;
+  height: auto;
+}
+.imagen2 {
+  margin-top: 55px;
+  width: 100%;
+  height: 100%;
+}
+.logoAzul {
+  height: 70px;
+}
+.logoBlanco {
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: #3857f3;
+
+  padding: 30px;
+}
+main {
+  display: flex;
+}
+.divMain {
+  width: 100%;
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
